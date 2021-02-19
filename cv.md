@@ -6,11 +6,11 @@
 
 ### Adress - Minsk, RB
 
-### Email - kontaktid@ya.ru
+### Email - <kontaktid@ya.ru>
 
-### Github - https://github.com/killcodings
+### Github - <https://github.com/killcodings>
 
-### Telegram - https://t.me/killcodings
+### Telegram - <https://t.me/killcodings>
 
 ---
 
