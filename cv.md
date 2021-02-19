@@ -129,10 +129,10 @@ I am a freelancer with little experience in web site development on WordPress. T
 
 ## Projects
 
-- https://ardonit.ru/
-- https://dk-mebel.com/
-- http://iso.promhim-group.com/
-- http://sub-eurogroup.topevent.by/
+- <https://ardonit.ru/>
+- <https://dk-mebel.com/>
+- <http://iso.promhim-group.com/>
+- <http://sub-eurogroup.topevent.by/>
 
 ---
 
