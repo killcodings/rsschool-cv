@@ -511,6 +511,18 @@ code {
 .content_block {
   flex-basis: 60%;
 }
+.content_block ul.list {
+  height: 80px;
+  overflow-y: scroll;
+}
+.content_block ul.list::-webkit-scrollbar {
+  width: 4px;
+  background-color: ##ffffff;
+}
+.content_block ul.list::-webkit-scrollbar-thumb {
+  background-color: #fddd09;
+}
+
 
 aside.content_left {
   padding: 50px;
