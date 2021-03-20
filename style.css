@@ -517,7 +517,7 @@ code {
 }
 .content_block ul.list::-webkit-scrollbar {
   width: 4px;
-  background-color: ##ffffff;
+  background-color: #ffffff;
 }
 .content_block ul.list::-webkit-scrollbar-thumb {
   background-color: #fddd09;
