@@ -516,7 +516,7 @@ code {
   overflow-y: scroll;
 }
 .content_block ul.list::-webkit-scrollbar {
-  width: 4px;
+  width: 15px;
   background-color: #ffffff;
 }
 .content_block ul.list::-webkit-scrollbar-thumb {
