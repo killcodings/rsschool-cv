@@ -512,7 +512,7 @@ code {
   flex-basis: 60%;
 }
 .content_block ul.list {
-  height: 80px;
+  height: 200px;
   overflow-y: scroll;
 }
 .content_block ul.list::-webkit-scrollbar {
