@@ -487,6 +487,14 @@ code {
   height: 300px;
   padding: 20px 15%;
 }
+.footer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.year {
+  color: #fff;
+}
 
 .navbar svg {
   flex-basis: 15%;
