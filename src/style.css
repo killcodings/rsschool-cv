@@ -17,11 +17,20 @@ a {
   max-height: 100%;
   width: 100%;
 }
+.wrapper-img.xml {
+  font-size: 30px;
+  color: #fddd09;
+  font-weight: 900;
+}
 .wrapper-img a {
   width: 100%;
 }
 address {
   font-style: normal;
+}
+a[href^="tel:"] {
+  color: #fff;
+  font-weight: 900;
 }
 ul {
   list-style: none;
@@ -693,4 +702,63 @@ figure {
   .content_block .article:first-of-type {
     margin: 20px 0 40px 0;
   }
+}
+
+
+.FrontEndResumeRu .header {
+  height: 380px;
+}
+
+.FrontEndResumeRu {
+  @media (max-width: 1200px) {
+    .site-main {
+      margin: -310px 5%;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .site-main {
+      margin: -310px 9%;
+    }
+  }
+
+  h2.title {
+    padding: 0px 20px;
+  }
+  .position {
+    color: #fff;
+  }
+
+  .article {
+    margin: 0 0 30px 0;
+  }
+  .content_block ul.list {
+    height: 180px;
+  }
+
+  .footer {
+    /*margin-top: 290px*/
+    height: 310px;
+  }
+  blockquote {
+    color: #fff;
+  }
+}
+
+@media print {
+  /* Задаем настройки страницы */
+  @page {
+    size: A4 portrait; /* Жестко фиксируем книжную ориентацию */
+    margin: 0; /* Убираем системные поля браузера (те, что с датой и адресом) */
+  }
+
+  body {
+    -webkit-print-color-adjust: exact; /* Важно: сохраняет фоновые цвета и желтую полосу */
+    print-color-adjust: exact;
+  }
+}
+.resume-container { /* Замените на ваш главный класс */
+  width: 210mm; /* Точная ширина A4 */
+  min-height: 297mm;
+  margin: 0 auto;
+  padding: 0 20px;
 }
